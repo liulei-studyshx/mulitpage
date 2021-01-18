@@ -19,7 +19,8 @@ module.exports = {
     : '/static/hy/yaya-main/',
     devServe:{
       open:true,
-      port:8080
+      port:8080,
+      hot:true
     },
     chainWebpack:{
         // webpack 抛出的配置
