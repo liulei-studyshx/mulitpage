@@ -17,7 +17,10 @@ module.exports = {
     publicPath:process.env.NODE_ENV === 'production'
     ? v1Config.staticPath
     : '/static/hy/yaya-main/',
-    devServe:{},
+    devServe:{
+      open:true,
+      port:8080
+    },
     chainWebpack:{
         // webpack 抛出的配置
     }
